@@ -20,3 +20,9 @@ CREATE TABLE IF NOT EXISTS todo_list(
 ```
 INSERT INTO todo_list (item) VALUES ('Do Something');
 ```
+5. Download the DemoApp folder into your htdocs folder. On a Mac, it will be:
+`/Applications/MAMP/htdocs/DemoApp`
+
+6. Run your server. 
+
+7. Open the app in your browser. If MySQL is running on port 8889, the app will be on a different port, such as 8888. You would find your app by going to `localhost:8888/demoapp/index.php` for example.
